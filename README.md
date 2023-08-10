@@ -1,7 +1,10 @@
 # TwitterDataWithNeo4j
-Exploring Twitter data with Neo4j through python.
 
-The data were extracted from the Twitter API, saved into a local MongoDB instance and then extracted as a json file. This json file is used as the input for the `TwitterDataWithNeo4j.ipynb` notebook in which we clean the data, create Neo4j graphs as well as query them to gain insights from the data. Namely, the following queries were answered:
+In this project we use data extracted from the Twitter API, save them into a local MongoDB instance and then import analyze them using Neo4j.
+
+Please check out the corresponding [Medium Article](https://medium.com/@thdiamant/exploring-twitter-data-with-neo4j-and-python-f97ab427db56) for more details.
+
+Namely, the following queries were answered:
 
 1. Get the total number of tweets.
 
@@ -27,4 +30,3 @@ The data were extracted from the Twitter API, saved into a local MongoDB instanc
 
 12. Get the users which have minimum average tweets per day bigger than the average number of tweets of a user per day. Only users with more that 2 tweets per day will be used in order to calculate the average number of tweets per day.
 
-A Medium article has also been written that explains all our work in more detail, see [here](https://medium.com/@thdiamant/exploring-twitter-data-with-neo4j-and-python-f97ab427db56).
